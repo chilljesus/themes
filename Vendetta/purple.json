@@ -19,7 +19,7 @@
         "BACKGROUND_PRIMARY": ["#2d2d2d"],
         "BACKGROUND_SECONDARY": ["#3d3d3d"],
         "BACKGROUND_SECONDARY_ALT": ["#3d3d3d"],
-        "BACKGROUND_TERTIARY": ["linear-gradient(to right, #4a306d, #2d2d2d)"],
+        "BACKGROUND_TERTIARY": ["#2d2d2d"],
         "BACKGROUND_ACCENT": ["#4d4195"],
         "BACKGROUND_FLOATING": ["#2d2d2d"],
         "BACKGROUND_MOBILE_PRIMARY": ["#2d2d2d"],
