@@ -1,10 +1,10 @@
 {
-    "name": "Nekoism Essence",
-    "description": "A theme inspired by the mystical and playful essence of Nekoism, featuring dark purple hues and subtle spiritual motifs.",
+    "name": "Essence",
+    "description": "A theme inspired by the essence of Nekoism, featuring dark purple hues and subtle spiritual motifs.",
     "authors": [
         {
-            "name": "Neko Sage",
-            "id": "nekosage"
+            "name": "Jesus",
+            "id": "nekejesus"
         }
     ],
     "semanticColors": {
@@ -13,17 +13,17 @@
         "TEXT_NORMAL": ["#c6b1d3"],
         "TEXT_MUTED": ["#715c80"],
         "TEXT_DANGER": ["#715c80"],
-        "INTERACTIVE_NORMAL": ["#9a7fb0"],
-        "INTERACTIVE_HOVER": ["#7f6890"],
-        "INTERACTIVE_ACTIVE": ["#664d73"],
-        "INTERACTIVE_MUTED": ["#503962"],
+        "INTERACTIVE_NORMAL": ["#68b0ab"],
+        "INTERACTIVE_HOVER": ["#5a9085"],
+        "INTERACTIVE_ACTIVE": ["#4a8075"],
+        "INTERACTIVE_MUTED": ["#39705e"],
         "BACKGROUND_PRIMARY": ["#000000"],
         "BACKGROUND_SECONDARY": ["#1a1326"],
         "BACKGROUND_SECONDARY_ALT": ["#1a1326"],
         "BACKGROUND_TERTIARY": ["#1a1326"],
         "BACKGROUND_ACCENT": ["#2d0333"],
         "BACKGROUND_FLOATING": ["#1a1326"],
-        "BACKGROUND_MOBILE_PRIMARY": ["#000000"],
+        "BACKGROUND_MOBILE_PRIMARY": ["#322B38"],
         "BACKGROUND_MENTIONED": ["#2d0333"],
         "BACKGROUND_MOBILE_SECONDARY": ["#1a1326"],
         "BACKGROUND_NESTED_FLOATING": ["#1a1326"],
@@ -60,12 +60,12 @@
         "PRIMARY_700": "#1a1326",
         "PRIMARY_800": "#1a1326",
         "PRIMARY_900": "#715c80",
-        "BRAND_360": "#9a7fb0",
+        "BRAND_360": "#68b0ab",
         "YELLOW_300": "#9a7fb0",
         "BRAND_260": "#9a7fb0",
         "BRAND_500": "#9a7fb0",
         "BRAND_560": "#9a7fb0",
-        "GREEN_360": "#9a7fb0",
+        "GREEN_360": "#68b0ab",
         "RED_400": "#9a7fb0",
         "ORANGE_345": "#9a7fb0",
         "RED_560": "#503962",
@@ -74,8 +74,8 @@
     },
     "spec": 2,
     "background": {
-        "url": "https://media.discordapp.net/attachments/623704119601004556/1180033578579538080/DALLE_2023-12-01_01.12.38_-_A_simple_and_subtle_tall_portrait-oriented_image_reflecting_the_essence_of_Nekoism_with_a_dark_purple_background._The_image_should_convey_a_casual_an.png",
-        "alpha": 0.5,
-        "color": "#081924"
+        "url": "",
+        "alpha": 1,
+        "color": "#322B38"
     }
 }
