@@ -1,36 +1,69 @@
 {
     "name": "Essence",
     "description": "A theme built with the essence of Nekoism",
-    "author": "Jesus",
-    "authorId": "nekojesus",
-    "colors": {
-        "primary": "#9a60b4",  // A warm shade of purple
-        "secondary": "#7a3f92",  // A darker shade of purple for contrast
-        "accent": "#e0ace4",  // Soft pastel tone for highlights
-        "background": "#2d2d2d",  // Dark background for main areas
-        "backgroundSecondary": "#3d3d3d",  // Lighter shade for secondary panels
-        "textNormal": "#f5f5f5",  // Off-white for standard text
-        "textMuted": "#cccccc",  // Light gray for muted text
-        "interactiveNormal": "#9a60b4",  // Purple for interactive elements
-        "interactiveHover": "#b384c6",  // Slightly brighter purple for hover effects
-        "headerPrimary": "#e0ace4",  // Lighter purple for main headers
-        "headerSecondary": "#9a60b4"  // Darker purple for sub-headers
+    "authors": [
+        {
+            "name": "Jesus",
+            "id": "nekojesus"
+        }
+    ],
+    "semanticColors": {
+        "HEADER_PRIMARY": ["#9a60b4"],
+        "HEADER_SECONDARY": ["#7a3f92"],
+        "TEXT_NORMAL": ["#f5f5f5"],
+        "TEXT_MUTED": ["#cccccc"],
+        "TEXT_LINK": ["#e0ace4"],
+        "INTERACTIVE_NORMAL": ["#9a60b4"],
+        "INTERACTIVE_ACTIVE": ["#b384c6"],
+        "INTERACTIVE_MUTED": ["#7a3f92"],
+        "BACKGROUND_PRIMARY": ["#2d2d2d"],
+        "BACKGROUND_SECONDARY": ["#3d3d3d"],
+        "BACKGROUND_SECONDARY_ALT": ["#3d3d3d"],
+        "BACKGROUND_TERTIARY": ["linear-gradient(to right, #4a306d, #2d2d2d)"],
+        "BACKGROUND_ACCENT": ["#4d4195"],
+        "BACKGROUND_FLOATING": ["#2d2d2d"],
+        "BACKGROUND_MOBILE_PRIMARY": ["#2d2d2d"],
+        "BACKGROUND_MOBILE_SECONDARY": ["#2d2d2d"],
+        "BACKGROUND_NESTED_FLOATING": ["#2d2d2d"],
+        "BACKGROUND_MESSAGE_HOVER": ["#3d375f"],
+        "BACKGROUND_MODIFIER_HOVER": ["#3d375f"],
+        "BACKGROUND_MODIFIER_ACTIVE": ["#6e59ad"],
+        "BACKGROUND_MODIFIER_SELECTED": ["#433667"],
+        "BACKGROUND_MODIFIER_ACCENT": ["#2d2d2d"],
+        "CHANNELTEXTAREA_BACKGROUND": ["#2c274a"],
+        "CHANNEL_TEXT_AREA_PLACEHOLDER": ["#362e67"],
+        "CHANNELS_DEFAULT": ["#6e59ad"],
+        "TEXT_DANGER": ["#FC0E61"],
+        "KEYBOARD": ["#2c274a"],
+        "CHANNEL_ICON": ["#7B68EE"],
+        "CHAT_BACKGROUND": ["#0f0d1e"],
+        "SPOILER_HIDDEN_BACKGROUND": ["#3d317d"],
+        "SPOILER_REVEALED_BACKGROUND": ["#4e3fa1"]
     },
-    "background": {
-        "main": "#2d2d2d",  // Main dark background
-        "secondary": "#3d3d3d",  // Secondary background
-        "tertiary": "linear-gradient(to right, #4a306d, #2d2d2d)"  // Gradient background
+    "rawColors": {
+        "PRIMARY_100": "#9a60b4",
+        "PRIMARY_200": "#7a3f92",
+        "PRIMARY_300": "#9a60b4",
+        "PRIMARY_360": "#9a60b4",
+        "PRIMARY_400": "#9a60b4",
+        "PRIMARY_500": "#7a3f92",
+        "PRIMARY_600": "#2d2d2d",
+        "PRIMARY_630": "#3d3d3d",
+        "PRIMARY_660": "#3d3d3d",
+        "PRIMARY_700": "#2d2d2d",
+        "PRIMARY_800": "#2d2d2d",
+        "BRAND_260": "#e0ace4",
+        "BRAND_360": "#9a60b4",
+        "BRAND_500": "#e0ace4",
+        "BRAND_560": "#9a60b4",
+        "RED_400": "#FC0E61",
+        "YELLOW_300": "#9a60b4",
+        "GREEN_360": "#9a60b4",
+        "WHITE_500": "#f5f5f5"
     },
-    "chatBubbles": {
-        "normal": "#9a60b4",  // Purple chat bubble
-        "hover": "#b384c6"  // Hover state
-    },
-    "scrollbar": {
-        "thumb": "#9a60b4",  // Scrollbar thumb
-        "track": "#3d3d3d"  // Scrollbar track
-    },
-    "buttons": {
-        "normal": "#9a60b4",  // Button normal state
-        "hover": "#b384c6"  // Button hover state
+    "spec": 2,
+    "plus": {
+        "version": "0",
+        "iconpack": "rosiecord-plumpy"
     }
 }
