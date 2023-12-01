@@ -1,60 +1,36 @@
 {
     "name": "Essence",
-    "description": "A Nekoism-inspired theme.",
-    "semanticColors": {
-        "HEADER_PRIMARY": ["#9a7fb0"],
-        "HEADER_SECONDARY": ["#7f6890"],
-        "TEXT_NORMAL": ["#c6b1d3"],
-        "TEXT_MUTED": ["#715c80"],
-        "TEXT_DANGER": ["#D83B3B"],
-        "INTERACTIVE_NORMAL": ["#68b0ab"],
-        "INTERACTIVE_HOVER": ["#5a9085"],
-        "INTERACTIVE_ACTIVE": ["#4a8075"],
-        "INTERACTIVE_MUTED": ["#39705e"],
-        "BACKGROUND_PRIMARY": ["#322B38"],
-        "BACKGROUND_SECONDARY": ["#1a1326"],
-        "BACKGROUND_TERTIARY": ["#241b2f"],
-        "BACKGROUND_ACCENT": ["#2d0333"],
-        "BACKGROUND_FLOATING": ["#241b2f"],
-        "BACKGROUND_MOBILE_PRIMARY": ["#2a2331"],
-        "BACKGROUND_MOBILE_SECONDARY": ["#201a28"],
-        "BACKGROUND_NESTED_FLOATING": ["#201a28"],
-        "BACKGROUND_MESSAGE_HOVER": ["#2a2331"],
-        "BACKGROUND_MODIFIER_HOVER": ["#241b2f"],
-        "BACKGROUND_MODIFIER_ACTIVE": ["#201a28"],
-        "BACKGROUND_MODIFIER_SELECTED": ["#1a1326"],
-        "SCROLLBAR_THIN_THUMB": ["#9a7fb0"],
-        "SCROLLBAR_THIN_TRACK": ["#1a1326"],
-        "SCROLLBAR_AUTO_THUMB": ["#7f6890"],
-        "SCROLLBAR_AUTO_TRACK": ["#1a1326"],
-        "CHANNEL_TEXT_AREA_PLACEHOLDER": ["#715c80"],
-        "CHANNELTEXTAREA_BACKGROUND": ["#322B38"],
-        "CHANNEL_ICON": ["#c6b1d3"],
-        "CHANNELS_DEFAULT": ["#9a7fb0"],
-        "REDESIGN_ACTIVITY_CARD_BORDER": ["#2d0333"],
-        "REDESIGN_ACTIVITY_CARD_BACKGROUND": ["#241b2f"],
-        "CHAT_BACKGROUND": ["#201a28"],
-        "SPOILER_HIDDEN_BACKGROUND": ["#DCDDDE"]
+    "description": "A theme built with the essence of Nekoism",
+    "author": "Jesus",
+    "authorId": "nekojesus",
+    "colors": {
+        "primary": "#9a60b4",  // A warm shade of purple
+        "secondary": "#7a3f92",  // A darker shade of purple for contrast
+        "accent": "#e0ace4",  // Soft pastel tone for highlights
+        "background": "#2d2d2d",  // Dark background for main areas
+        "backgroundSecondary": "#3d3d3d",  // Lighter shade for secondary panels
+        "textNormal": "#f5f5f5",  // Off-white for standard text
+        "textMuted": "#cccccc",  // Light gray for muted text
+        "interactiveNormal": "#9a60b4",  // Purple for interactive elements
+        "interactiveHover": "#b384c6",  // Slightly brighter purple for hover effects
+        "headerPrimary": "#e0ace4",  // Lighter purple for main headers
+        "headerSecondary": "#9a60b4"  // Darker purple for sub-headers
     },
-    "rawColors": {
-        "PRIMARY": "#9a7fb0",
-        "PRIMARY_100": "#9a7fb0",
-        "PRIMARY_200": "#7f6890",
-        "PRIMARY_300": "#715c80",
-        "PRIMARY_400": "#5a9085",
-        "PRIMARY_500": "#4a8075",
-        "PRIMARY_600": "#39705e",
-        "PRIMARY_700": "#322B38",
-        "PRIMARY_800": "#2a2331",
-        "PRIMARY_900": "#201a28",
-        "BRAND": "#68b0ab",
-        "BRAND_HOVER": "#5a9085",
-        "BRAND_ACTIVE": "#4a8075",
-        "BRAND_MUTED": "#39705e",
-        "ACCENT": "#D83B3B",
-        "ACCENT_HOVER": "#C32B2B",
-        "ACCENT_ACTIVE": "#B12525",
-        "ACCENT_MUTED": "#A21E1E"
+    "background": {
+        "main": "#2d2d2d",  // Main dark background
+        "secondary": "#3d3d3d",  // Secondary background
+        "tertiary": "linear-gradient(to right, #4a306d, #2d2d2d)"  // Gradient background
     },
-    "spec": 2
+    "chatBubbles": {
+        "normal": "#9a60b4",  // Purple chat bubble
+        "hover": "#b384c6"  // Hover state
+    },
+    "scrollbar": {
+        "thumb": "#9a60b4",  // Scrollbar thumb
+        "track": "#3d3d3d"  // Scrollbar track
+    },
+    "buttons": {
+        "normal": "#9a60b4",  // Button normal state
+        "hover": "#b384c6"  // Button hover state
+    }
 }
